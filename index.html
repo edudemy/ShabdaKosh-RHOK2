@@ -8,6 +8,51 @@
     <script>window.scrollback = {"room":"shabdakosh-hindi-learners","titlebarColor":"#ec9041","form":"canvas","minimize":true};(function(d,s,h,e){e=d.createElement(s);e.async=1;e.src=(location.protocol === "https:" ? "https:" : "http:") + "//scrollback.io/client.min.js";d.getElementsByTagName(s)[0].parentNode.appendChild(e);}(document,"script"));</script>
 </head>
 <body>
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '1401442356816338',
+      xfbml      : true,
+      version    : 'v2.2'
+    });
+
+    // ADD ADDITIONAL FACEBOOK CODE HERE
+    // Place following code after FB.init call.
+	
+	function onLogin(response) {
+	  if (response.status == 'connected') {
+	    FB.api('/me?fields=first_name', function(data) {
+	      var welcomeBlock = document.getElementById('fb-welcome');
+	      welcomeBlock.innerHTML = 'Hello, ' + data.first_name + '!';
+	    });
+	  }
+	}
+	
+	FB.getLoginStatus(function(response) {
+	  // Check login status on load, and if the user is
+	  // already logged in, go directly to the welcome message.
+	  if (response.status == 'connected') {
+	    onLogin(response);
+	  } else {
+	    // Otherwise, show Login dialog first.
+	    FB.login(function(response) {
+	      onLogin(response);
+	    }, {scope: 'user_friends, email'});
+	  }
+	});
+
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
+
+<h1 id="fb-welcome"></h1>
 
 <div id="right_box" style="margin-left:60%;border:2px solid black;position:absolute;z-index:99;height:600px;width:450px;background-color:#ff3232;opacity:.8;margin-top:70px;" ng-show="gocats">
 <h3 style="font-family: 'Rockwell Extra Bold', 'Rockwell Bold', monospace;border-bottom:1px solid black;">  YOUR CONTRIBUTION</h3>	
