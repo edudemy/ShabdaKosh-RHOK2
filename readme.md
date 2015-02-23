@@ -1,5 +1,8 @@
 ShabdaKosh-RHOK2
 ================
+[![Stories in Ready](https://badge.waffle.io/edudemy/shabdakosh-rhok2.png?label=ready&title=Ready)](http://waffle.io/edudemy/shabdakosh-rhok2)
+https://gitter.im/edudemy/ShabdaKosh-RHOK2?utm_source=share-link&utm_medium=link&utm_campaign=share-link
+[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/edudemy/ShabdaKosh-RHOK2?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
 ShabdaKosh-Hindi-Learners
 
