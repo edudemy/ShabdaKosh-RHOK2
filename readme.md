@@ -22,6 +22,8 @@ For example: lmgtfy.com/?q=translate+radio+to+kannada
 by crowdsourcing appropriate, non-literal, human contributed translations, 
 by building a community and gamifying the learning platform.
 
-Demo: apps.facebook.com/kosha/ [TBD]
+Play chess Game App in your native language on facebook and facebook messenger.
+
+Try Game App Demo here: https://apps.facebook.com/chesslite/ 
 
 Repo Live Chat Hangout: https://gitter.im/edudemy/ShabdaKosh-RHOK2
