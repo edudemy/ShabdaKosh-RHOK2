@@ -22,6 +22,6 @@ For example: lmgtfy.com/?q=translate+radio+to+kannada
 by crowdsourcing appropriate, non-literal, human contributed translations, 
 by building a community and gamifying the learning platform.
 
-Demo: apps.facebook.com/kosha/
+Demo: apps.facebook.com/kosha/ [TBD]
 
 Repo Live Chat Hangout: https://gitter.im/edudemy/ShabdaKosh-RHOK2
