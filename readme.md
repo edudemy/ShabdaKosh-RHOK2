@@ -4,10 +4,10 @@ ShabdaKosh-RHOK2
 https://gitter.im/edudemy/ShabdaKosh-RHOK2?utm_source=share-link&utm_medium=link&utm_campaign=share-link
 [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/edudemy/ShabdaKosh-RHOK2?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
-ShabdaKosh-Hindi-Learners
+ShabdaKosh-Language-Learners, Trainers and Translators.
 
- ShabdaKosh Platform Starter App for connecting Learners aand Experts for learning Native Indian languages 
- and providing greater access to knowledge and technical, general literature in English language.
+ ShabdaKosh Platform Starter App for connecting Learners, Translators and Experts for learning Native World/Indian languages 
+ and providing greater access to knowledge and technical, general literature in World/English language.
  
  This work builds on the work of the EMILLE Corpus
  http://www.lancaster.ac.uk/fass/projects/corpus/emille/
